@@ -1,0 +1,68 @@
+
+#Link for this lesson
+#https://www.digitalocean.com/community/tutorials/python-data-types
+
+#Numeric Data Type
+a = 100
+print("The type of variable having value", a, " is ",type(a))
+
+b = 10.2435
+print("The type of variable having value", b, " is ",type(b))
+
+c = 100+3j
+print("The type of variable having value", c, " is ",type(c))
+
+
+#String Data Type
+a = "String in a double quote"
+b = "String in a single qoute"
+print(a)
+print(b)
+
+print(a,"concatenated with",b)
+print(a+" concated with "+b)
+
+
+#Python List Data Type
+a = [1,2,3,4,5,6]
+print(a)
+
+b = ["hello", "johnn", "reese"]
+print(b)
+
+c = ["hey", "you", 1,2,3, "go"]
+print(c)
+
+print(c[1:6])
+print(c[:])
+
+
+#Python Tuple
+    #The tuple is another data type which is a sequence of data similar to a list. 
+    # But it is immutable. That means data in a tuple is write-protected. 
+    # Data in a tuple is written using parenthesis and commas.
+a = (1,2,3,)
+print(a)
+
+b = ("hello", 1,2,3, "go")
+print(b)
+
+print(b[4])
+
+
+#Python Dictionary
+    #Python Dictionary is an unordered sequence of data of key-value pair form. 
+    # It is similar to the hash table type. Dictionaries are written within curly braces in the form key:value. 
+    # It is very useful to retrieve data in an optimized way among a large amount of data.
+
+#a sample dictionary variable
+a = {1:"first name", 2:"last name", "age":33}
+
+#print value having key=1
+print(a[1])
+
+#print value having key=2
+print(a[2])
+
+#print value having key="age"
+print(a["age"])
