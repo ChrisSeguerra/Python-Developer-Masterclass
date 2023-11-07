@@ -1,3 +1,5 @@
+# Assignment: 1 FUNKY CODE
+
 char = '#'
 
 print(f" {char*4}")

@@ -1,3 +1,5 @@
+# Assignment: 1 SHAPES CALCULATOR
+
 circle =  float(input("Enter the radius of the circle: "))
 area_circle = 3.14 * circle * circle
 
