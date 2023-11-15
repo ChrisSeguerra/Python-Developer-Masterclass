@@ -7,7 +7,6 @@ print("")
 
 
 # 2
-
 # Prompt the user to enter a paragraph
 paragraph = input("Write a paragraph below: \n")
 
@@ -64,6 +63,7 @@ initials = ''.join(name[0].upper() for name in names)
 print("Your initials are:", initials)
 
 print("")
+
 
 #6
 # Prompt the user for a string

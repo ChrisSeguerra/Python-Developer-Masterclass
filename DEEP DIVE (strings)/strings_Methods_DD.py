@@ -38,14 +38,28 @@ print(dir(string))                        # gives all available methods for the 
 # *Replace*
 string = "I have a cat."
 new_string = string.replace("cat", "dog")
-print(new_string)             # Output: I have a dog.
+print(new_string)                 # Output: I have a dog.
 
 
 # *Find*
 # NOTE: syntax: find(substring, start index, end index)
 text = "hello world"
-print(text.find("world", 0, 5))  # Output: 6 if where looking directly to the starting index OR -1 if there nothing found in the string
-print(text.find("python"))    # Output: -1
-print(text.find("o"))         # Output: 4
-print(text.find("l", 4))      # Output: 9 # Starting index is 4
+print(text.find("world", 0, 5))   # Output: 6 if where looking directly to the starting index OR -1 if there nothing found in the string
+print(text.find("python"))        # Output: -1
+print(text.find("o"))             # Output: 4
+print(text.find("l", 4))          # Output: 9 # Starting index is 4
 
+print("")
+
+# Methods
+string = "hello"
+print(string.upper())        # Output: HELLO
+print(string.capitalize())   # Output: Hello
+
+
+# Methods do not modify the string in place 
+# - They Return a New String
+
+upper_cased = string.upper()
+print(string)                # Output: hello
+print(upper_cased)           # Output: HELLO
