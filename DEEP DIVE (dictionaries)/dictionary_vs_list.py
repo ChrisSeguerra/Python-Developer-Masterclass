@@ -31,6 +31,7 @@ books = {
     "To Kill a Mockingbird": {"author": "Harper Lee", "year": 1960},
     "The Great Gatsby": {"author": "F. Scott Fitzgerald", "year": 1925}
 }
+# access the Author and Year of Harry Potter
 HP_author = books["Harry Potter"] ["author"]
 HP_year = books["Harry Potter"] ["year"]
 print(f"Author: {HP_author}, Year: {HP_year}")

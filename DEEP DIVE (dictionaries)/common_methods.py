@@ -103,8 +103,12 @@ print(my_dict.values())
 # Loop over values of a dict:
 for value in my_dict.values():
     print(f'One of the values is: {value}')
+    print()
+    
 # Output:
 # One of the values is: Jack
 # One of the values is: 26
 # One of the values is: Downtown
+
+
 

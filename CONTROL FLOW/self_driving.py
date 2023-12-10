@@ -1,4 +1,4 @@
-# SELF DRIVING 
+# SELF DRIVING CAR
 
 destination = input("Where do you want to go? ")
 

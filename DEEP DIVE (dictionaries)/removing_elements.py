@@ -17,4 +17,5 @@ print("Updated Dictionary: ", student_id)
 My_Dict = {1: "Beck", 2: "Joe", 3: "Kate", 4: "Love"}
 data = My_Dict.pop(1) # Remove the item with key 2 and return its value
 print(data) # Output: Beck
-print(My_Dict) # Output: {2: 'Joe', 3: 'Kate', 4: 'Love'}
+print(My_Dict) 
+# Output: {2: 'Joe', 3: 'Kate', 4: 'Love'}

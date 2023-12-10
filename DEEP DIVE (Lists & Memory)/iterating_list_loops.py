@@ -32,13 +32,9 @@ else:
 # List Length
 my_list = ['apple', 'banana', 'cherry']
 print(len(my_list))         # Output: 3
+print()
 
 my_empty_list = []
 print(len(my_empty_list))   # Output: 0
 print()
 
-
-# Python List Comprehension
-# syntax: [(expression) for (name) in (iterable)]
-numbers = [number+2 for number in range(1, 5)]
-print(numbers)

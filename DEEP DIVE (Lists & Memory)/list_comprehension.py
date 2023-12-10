@@ -5,7 +5,7 @@ numbers = [number+2 for number in range(1, 5)]
 print(numbers)
 
 
-# this is equivalent to:
+# Above example is equivalent to:
 numbers = []
 
 for x in range(1, 6):

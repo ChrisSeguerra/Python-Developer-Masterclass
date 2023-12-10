@@ -5,8 +5,8 @@ ham_cooking_time = 5
 
 
 def cooking_end_time(start_time, duration):
-    end_time = (start_time + duration) % 24 
-    return end_time
+    end_time = (start_time + duration) % 24  # OR return (start_time + duration) % 24
+    return end_time   
 
 
 # print(cooking_end_time(15, 7))
